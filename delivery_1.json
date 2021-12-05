@@ -1,0 +1,154 @@
+{
+    "dataType": "Delivery",
+    "totalCount": 1,
+    "count": 1,
+    "startIndex": 1,
+    "data": [
+        {
+            "id": "a4b7a825f67930965747445709011120-Delivery-aae8a9611d14bbdbad09dc2de9e217be",
+            "refObjects": {
+                "shipToSites": [
+                    {
+                        "id": "a4b7a825f67930965747445709011120-Site-c0f233373cd54d9593b776cd8172a379",
+                        "tid": "a4b7a825f67930965747445709011120",
+                        "creationDate": "2020-05-20T20:21:12.000+0000",
+                        "lmd": "2020-05-20T20:21:12.000+0000",
+                        "participantName": "Acme Inc",
+                        "siteName": "AC_DC06",
+                        "siteType": "DC",
+                        "siteDescription": "Ohio Distribution Center",
+                        "siteOwnerName": "Acme Inc",
+                        "siteLongitude": -84.398138,
+                        "siteLatitude": 39.448875,
+                        "status": "Active",
+                        "geoLocation": {
+                            "lon": -84.398138,
+                            "lat": 39.448875
+                        },
+                        "siteCity": "Middletown",
+                        "siteState": "OH",
+                        "siteCountry": "US",
+                        "siteZipCode": "45044",
+                        "locationType": "DC",
+                        "siteAddress1": "3500 Salzman Rd",
+                        "siteOwnerType": "Tenant",
+                        "regionHierarchyL1": "Middletown",
+                        "regionHierarchyL2": "OH",
+                        "regionHierarchyL3": "Northern",
+                        "regionHierarchyL4": "US",
+                        "regionHierarchyL5": "North America",
+                        "siteLateDeliveryToleranceDays": 1,
+                        "siteEarlyDeliveryToleranceDays": 1,
+                        "projectedInventoryComputeRequired": "Yes"
+                    }
+                ],
+                "shipFromSites": [
+                    {
+                        "id": "a4b7a825f67930965747445709011120-Site-36fb5da5df16245d4e1cb238ee77f479",
+                        "tid": "a4b7a825f67930965747445709011120",
+                        "creationDate": "2020-05-20T20:40:21.000+0000",
+                        "lmd": "2020-05-20T20:40:21.000+0000",
+                        "participantName": "ACOEM01",
+                        "siteName": "AC_OEMF5",
+                        "siteType": "Internal",
+                        "status": "Active",
+                        "sourceOrigin": "Internal",
+                        "sourceObjectId": "a4b7a825f67930965747445709011120-Delivery-6bc3e1ffe3c58bed48722997208e6b07",
+                        "sourceObjectDataType": "Delivery"
+                    }
+                ]
+            },
+            "tid": "a4b7a825f67930965747445709011120",
+            "creationDate": "2020-05-20T20:40:22.000+0000",
+            "lmd": "2020-05-20T20:42:02.000+0000",
+            "state": "Shipped",
+            "processType": "supply",
+            "deliveryId": "ID0070_SO",
+            "deliveryType": "inboundDelivery",
+            "exceptionStatus": "Untracked",
+            "daysDelayed": 0,
+            "customerName": "Acme Inc",
+            "supplierName": "ACOEM01",
+            "shipMode": "Ocean",
+            "shipToSiteName": "AC_DC06",
+            "shipToSiteDescription": "Ohio Distribution Center",
+            "shipFromSiteName": "AC_OEMF5",
+            "plannedShipDate": "2020-05-14T00:00:00.000+0000",
+            "actualShipDate": "2020-05-15T00:00:00.000+0000",
+            "plannedDeliveryDate": "2020-06-24T00:00:00.000+0000",
+            "predictedDeliveryDate": "2020-06-24T00:00:00.000+0000",
+            "shipmentId": "IS0066_SO",
+            "shipmentLineId": "10",
+            "deliveryLines": {
+                "10": {
+                    "refObjects": {
+                        "customerItems": [
+                            {
+                                "id": "a4b7a825f67930965747445709011120-Item-a782e02ed2e718c69d9c3881768386e3",
+                                "tid": "a4b7a825f67930965747445709011120",
+                                "creationDate": "2020-05-20T20:21:25.000+0000",
+                                "lmd": "2020-05-20T20:21:25.000+0000",
+                                "itemName": "AC-CP-002",
+                                "itemOwnerName": "Acme Inc",
+                                "itemDescription": "AC COMP 002",
+                                "itemType": "Purchased",
+                                "CASE": 1,
+                                "BOTTLE": 1,
+                                "PALLET": 1,
+                                "status": "Active",
+                                "baseUOM": "EA",
+                                "itemLob": "Components",
+                                "materialType": "Components",
+                                "participantName": "Acme Inc",
+                                "itemCommodityCode": "CTP550-5",
+                                "itemMaterialGroup": "ACME_CP_MG1",
+                                "itemIsCriticalItem": "Yes",
+                                "productHierarchyL1": "Burner Rings",
+                                "productHierarchyL2": "Stainless Steel",
+                                "productHierarchyL3": "Range Parts",
+                                "productHierarchyL4": "Appliances",
+                                "productHierarchyL5": "Kitchen",
+                                "itemIsLotControlled": "Yes",
+                                "itemPurchasingGroup": "PG001",
+                                "itemClassificationCode": "CLACODE002"
+                            }
+                        ]
+                    },
+                    "deliveryLineId": "10",
+                    "customerItemName": "AC-CP-002",
+                    "customerItemDescription": "AC COMP 002",
+                    "materialGroup": "ACME_CP_MG1",
+                    "shippedQuantity": 580,
+                    "shippingUom": "EA",
+                    "poNumber": "POA0040",
+                    "poLineNumber": "10",
+                    "orderUom": "EA",
+                    "lotEnabled": false,
+                    "batches": {},
+                    "state": "Shipped",
+                    "erpLineState": "Shipped",
+                    "operationName": "Save Delivery",
+                    "deliveryLineState": "Shipped",
+                    "isHotItem": "No"
+                }
+            },
+            "dataMismatchExceptions": [],
+            "lineStates": [
+                "Shipped"
+            ],
+            "lineExceptionStatus": [],
+            "lob": "Components",
+            "carrier": "OCEAN NETWORK EXPRESS (ONE LINE)",
+            "bolNumber": "ONEY894563",
+            "orderType": "standardPO",
+            "shipmentType": "inboundShipment",
+            "shipToSiteType": "DC",
+            "containerNumber": "ONEY4586335",
+            "erpCreationDate": "2020-05-04T00:00:00.000+0000",
+            "shipFromSiteType": "Internal",
+            "totalBoLineCount": 1
+        }
+    ],
+    "typeCounts": null,
+    "highlights": {}
+}

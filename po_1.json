@@ -1,0 +1,203 @@
+    [
+        {
+            "id": "a4b7a-PurchaseOrder-4f713",
+            "refObjects": {
+                "shipToSites": [
+                    {
+                        "id": "a4b7a-Site-c0f23",
+                        "tid": "a4b7a825f67930965747445709011120",
+                        "creationDate": "2020-08-20T20:21:12.000+0000",
+                        "lmd": "2020-08-20T20:21:12.000+0000",
+                        "participantName": "Acme Inc",
+                        "siteName": "AC_DC06",
+                        "siteType": "DC",
+                        "siteDescription": "Ohio Distribution Center",
+                        "siteOwnerName": "Acme Inc",
+                        "siteLongitude": -84.398138,
+                        "siteLatitude": 39.448875,
+                        "status": "Active",
+                        "geoLocation": {
+                            "lon": -84.398138,
+                            "lat": 39.448875
+                        },
+                        "siteCity": "Middletown",
+                        "siteState": "OH",
+                        "siteCountry": "US",
+                        "siteZipCode": "45044",
+                        "locationType": "DC",
+                        "siteAddress1": "3500 Salzman Rd",
+                        "siteOwnerType": "Tenant",
+                        "regionHierarchyL1": "Middletown",
+                        "regionHierarchyL2": "OH",
+                        "regionHierarchyL3": "Northern",
+                        "regionHierarchyL4": "US",
+                        "regionHierarchyL5": "North America",
+                        "siteLateDeliveryToleranceDays": 1,
+                        "siteEarlyDeliveryToleranceDays": 1,
+                        "projectedInventoryComputeRequired": "Yes"
+                    }
+                ]
+            },
+            "tid": "a4b7a825f67930965747445709011120",
+            "creationDate": "2020-08-20T20:37:21.000+0000",
+            "lmd": "2020-07-31T00:01:56.000+0000",
+            "criticalities": [
+                "HotOrder"
+            ],
+            "state": "Shipped",
+            "processType": "supply",
+            "purchaseOrderId": "POA0040",
+            "customerName": "Acme Inc",
+            "supplierName": "ACOEM1",
+            "purchaseOrderType": "standardPO",
+            "purchaseOrderLines": {
+                "10": {
+                    "refObjects": {
+                        "customerItems": [
+                            {
+                                "id": "a4b7a-PurchaseOrder-4f713",
+                                "tid": "a4b7a825f67930965747445709011120",
+                                "creationDate": "2020-08-20T20:21:25.000+0000",
+                                "lmd": "2020-08-20T20:21:25.000+0000",
+                                "itemName": "AC-CP-002",
+                                "itemOwnerName": "Acme Inc",
+                                "itemDescription": "AC COMP 002",
+                                "itemType": "Purchased",
+                                "CASE": 1,
+                                "BOTTLE": 1,
+                                "PALLET": 1,
+                                "status": "Active",
+                                "baseUOM": "EA",
+                                "itemLob": "Components",
+                                "materialType": "Components",
+                                "participantName": "Acme Inc",
+                                "itemCommodityCode": "CTP550-5",
+                                "itemMaterialGroup": "ACME_CP_MG1",
+                                "itemIsCriticalItem": "Yes",
+                                "productHierarchyL1": "Burner Rings",
+                                "productHierarchyL2": "Stainless Steel",
+                                "productHierarchyL3": "Range Parts",
+                                "productHierarchyL4": "Appliances",
+                                "productHierarchyL5": "Kitchen",
+                                "itemIsLotControlled": "Yes",
+                                "itemPurchasingGroup": "PG001",
+                                "itemClassificationCode": "CLACODE002"
+                            }
+                        ],
+                        "shipFromSites": [
+                            {
+                                "id": "a4b7a825f67930965747445709011120-Site-8e34cd4d9bbae6fb2a3590cf33848d85",
+                                "tid": "a4b7a825f67930965747445709011120",
+                                "creationDate": "2020-08-20T20:21:16.000+0000",
+                                "lmd": "2020-08-20T20:21:16.000+0000",
+                                "participantName": "ACOEM1",
+                                "siteName": "AC_OEMF5",
+                                "siteType": "Factory",
+                                "siteDescription": "Acme OEM_01 Factory_08",
+                                "siteOwnerName": "ACOEM1",
+                                "siteLongitude": 112.507394,
+                                "siteLatitude": 37.884319,
+                                "status": "Active",
+                                "geoLocation": {
+                                    "lon": 112.507394,
+                                    "lat": 37.884319
+                                },
+                                "siteCity": "Taiyuan Shi",
+                                "siteState": "Shanxi Sheng",
+                                "siteCountry": "CN",
+                                "siteZipCode": "30024",
+                                "locationType": "Plant",
+                                "siteAddress1": "Xigong W St",
+                                "siteAddress2": "Wanbailin Qu",
+                                "siteOwnerType": "Supplier",
+                                "siteVmiEnabled": "Yes",
+                                "regionHierarchyL1": "Taiyuan Shi",
+                                "regionHierarchyL2": "Shanxi Sheng",
+                                "regionHierarchyL3": "Northern",
+                                "regionHierarchyL4": "CN",
+                                "regionHierarchyL5": "Asia",
+                                "projectedInventoryComputeRequired": "No"
+                            }
+                        ]
+                    },
+                    "customerItemName": "AC-CP-002",
+                    "needByDate": "2020-06-24T00:00:00.000+0000",
+                    "orderQuantity": 580,
+                    "shipFromSiteName": "AC_OEMF5",
+                    "grDeliveryInfos": {},
+                    "deliveryInfos": {
+                        "a4b7a825f67930965747445709011120-Delivery-aae8a9611d14bbdbad09dc2de9e217be:10": {
+                            "deliveryInternalId": "a4b7a825f67930965747445709011120-Delivery-aae8a9611d14bbdbad09dc2de9e217be",
+                            "deliveryExternalId": "ID0070_SO",
+                            "deliveryLineId": "10",
+                            "deliveryLineState": "Shipped",
+                            "shippedQuantity": 580,
+                            "predictedDeliveryDate": null,
+                            "plannedDeliveryDate": null
+                        }
+                    },
+                    "poLineId": "10",
+                    "shipToSiteName": "AC_DC06",
+                    "purchaseOrderDeliverySchedule": {
+                        "10": {
+                            "confirmedDeliveryDate": "2020-06-24T00:00:00.000+0000",
+                            "confirmedQuantity": 580,
+                            "poDeliveryScheduleId": "10",
+                            "shippedQuantity": 580,
+                            "confirmedShipDate": "2020-08-14T00:00:00.000+0000",
+                            "deliveryId": "ID0070_SO"
+                        }
+                    },
+                    "unitPrice": 145,
+                    "totalConfirmedQuantity": 580,
+                    "totalOpenQuantity": 10,
+                    "daysToImpact": 6,
+                    "requestedShipDate": "2020-08-14T00:00:00.000+0000",
+                    "plannedDeliveryDate": "2020-06-24T00:00:00.000+0000",
+                    "operationName": "Save Order",
+					"totalClosedQuantity": 580,
+                    "totalDeliveredQuantity": 580,
+					"totalShippedQuantity": 580,
+                    "shipFromSiteDescription": "Acme OEM_01 Factory_08",
+                    "shipToSiteDescription": "Ohio Distribution Center",
+                    "lineStatus": "Shipped",
+                    "erpLineState": "Shipped",
+                    "predictedDeliveryDate": "2020-06-24T00:00:00.000+0000",
+                    "exceptionStatus": "Late",
+                    "orderUom": "EA",
+                    "shipFromSiteType": "Factory",
+                    "materialGroup": "ACME_CP_MG1",
+                    "deliveryState": "Shipped",
+                    "customerItemDescription": "AC COMP 002",
+                    "shipToSiteType": "DC"
+                }
+            },
+            "dataMismatchExceptionCount": 0,
+            "lineStates": [
+                "Shipped"
+            ],
+            "lineExceptionStatus": [
+                "Late"
+            ],
+            "lob": "Components",
+            "amount": 84100,
+            "billTo": "AC_DC06",
+            "soldTo": "AC_DC06",
+            "currency": "USD",
+            "buyerCode": "CN0012",
+            "buyerName": "Abby",
+            "incoTerms": "EXW",
+            "daysToImpact": 6,
+            "paymentTerms": "Net 60",
+            "shipComplete": "Y",
+            "requisitionNo": "R0057_SO",
+            "monetaryImpact": 84100,
+            "shipToSiteName": "AC_DC06",
+            "shipToSiteType": "DC",
+            "erpCreationDate": "2020-08-04T00:00:00.000+0000",
+            "exceptionStatus": "Late",
+            "requisitionCreateDate": "2020-08-04T00:00:00.000+0000",
+            "shipToSiteDescription": "Ohio Distribution Center",
+            "totalBoLineCount": 1
+        }
+    ]
